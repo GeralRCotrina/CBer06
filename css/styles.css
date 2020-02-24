@@ -1,0 +1,64 @@
+
+.guia{
+	/*   posición */
+	z-index: 100;
+	margin-top: 110px;
+	margin-left: -100px;
+	float: left;
+	position: fixed;
+	/*   margen interno  */
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*   FORMA  */
+	moz-border-radius: 50% 0 / 100% 0;
+     -webkit-border-radius: 50% 0 / 100% 0;
+     border-radius: 50% 0 / 100% 0;
+	/*   COLOR  */
+	background: rgba(210,255,82,1);
+	background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(99,199,6,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(99,199,6,1)));
+	background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(99,199,6,1) 100%);
+	background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(99,199,6,1) 100%);
+	background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(99,199,6,1) 100%);
+	background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(99,199,6,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#63c706', GradientType=1 );
+}
+.guia:hover{
+	margin-left: 10px;
+	/*  COLOR */
+	background: rgba(99,199,6,1);
+	background: -moz-linear-gradient(left, rgba(99,199,6,1) 0%, rgba(210,255,82,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(99,199,6,1)), color-stop(100%, rgba(210,255,82,1)));
+	background: -webkit-linear-gradient(left, rgba(99,199,6,1) 0%, rgba(210,255,82,1) 100%);
+	background: -o-linear-gradient(left, rgba(99,199,6,1) 0%, rgba(210,255,82,1) 100%);
+	background: -ms-linear-gradient(left, rgba(99,199,6,1) 0%, rgba(210,255,82,1) 100%);
+	background: linear-gradient(to right, rgba(99,199,6,1) 0%, rgba(210,255,82,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63c706', endColorstr='#d2ff52', GradientType=1 );	
+	transition: all 1s ease;
+	}
+
+.guia a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.guia a:hover {
+	color: #3C6F06;
+}
+.p_uno {
+	margin-top: 110px;
+}
+.p_dos{
+	margin-top: 180px;
+}
+.p_tres{
+	margin-top: 250px;
+}
+
+
+
+
+
+
